@@ -63,7 +63,7 @@ input {
 
 .header .banner {
   min-height: 100vh;
-}
+  }
 
 .about {
   width: 100%;
@@ -87,7 +87,7 @@ input {
 
 .header .container {
   position: relative;
-}
+  }
 
 .header .navigation {
   position: absolute;
@@ -252,16 +252,14 @@ input {
 }
 
 .text-line::after {
-  content: '';
-  bottom: 0;
-  left: 50%;
-  height: 1px;
+  content: "";
   display: block;
+  margin: 35px auto 0 auto;
   width: 50px;
-  margin-top: 45px;
-  background: #d7d7d7;
-  justify-content: center;
+  height: 1px;
+  background-color: #ebebeb;
 }
+
 
 
 @media (max-width: 1024px) {
