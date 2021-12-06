@@ -314,9 +314,12 @@ border-color: #ffffff transparent transparent transparent;
 .swiper-slide h4 span {
   color: #848789;
   font-weight: 300;
-
 }
 
+.swiper-pagination {
+  margin-top: 100px;
+  position: inherit;
+}
 
 
 @media (max-width: 1024px) {
