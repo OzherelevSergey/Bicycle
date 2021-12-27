@@ -15,6 +15,13 @@ a {
   color: #f00;
 }
 
+.title-18 {
+  text-align: center;
+  padding-top: 35px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
 ul {
   list-style: none;
 }
@@ -56,7 +63,7 @@ input {
 
 .header .banner {
   min-height: 100vh;
-}
+  }
 
 .about {
   width: 100%;
@@ -71,12 +78,6 @@ input {
   transform: translateX(-50%);
 }
 
-.about h3 {
-  text-align: center;
-  padding-top: 35px;
-  line-height: 34px;
-}
-
 .about p {
   text-align: center;
   color: #848789;
@@ -86,7 +87,7 @@ input {
 
 .header .container {
   position: relative;
-}
+  }
 
 .header .navigation {
   position: absolute;
@@ -182,6 +183,145 @@ input {
   width: 65px;
 }
 
+.work .container {
+  position: relative;
+  }
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-33 {
+  width: 33.3%;
+  flex-shrink: 0;
+}
+
+.col-33-img {
+  line-height: 0;
+  width: 33.3%;
+}
+
+.col-50 {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.col-66 {
+  width: 66.7%;
+  flex-shrink: 0;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-100-img {
+  line-height: 0;
+  width: 100%;
+}
+
+.col-100-img img {
+  width: 100%;
+
+}
+
+.col-100-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.col-text {
+  padding: 72px 66px 55px;
+  background: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.col-text p {
+  text-align: justify;
+  padding-top: 35px;
+  line-height: 30px;
+  color: #848789;
+}
+
+.col-text:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 10px);
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 10px 0 10px;
+border-color: #ffffff transparent transparent transparent;
+
+}
+
+.text-line::after {
+  content: "";
+  display: block;
+  margin: 35px auto 0 auto;
+  width: 50px;
+  height: 1px;
+  background-color: #ebebeb;
+}
+
+.reviews {
+  padding: 125px 0 180px;
+  background: #f7f7f7;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.swiper-slide img {
+  margin: 0 0 30px;
+}
+
+.swiper-slide p {
+  font-size: 24px;
+  max-width: 1050px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #848789;
+}
+
+.swiper-slide h4 {
+  color: #353738;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: none;
+  margin:  0 0 20px;
+
+
+}
+
+.swiper-slide h4 span {
+  color: #848789;
+  font-weight: 300;
+}
+
+.swiper-pagination {
+  margin-top: 100px;
+  position: inherit;
+}
+
+
 @media (max-width: 1024px) {
   .logo-mobile, .menu-bottom, .close-menu {
     display: block;
@@ -207,7 +347,6 @@ input {
 
   .navigation-wrapper.active {
     right: 0;
-
   }
 
   .navigation-wrapper .menu {
